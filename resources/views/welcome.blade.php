@@ -1,21 +1,30 @@
 <x-layout>
+    <div class="space-y-10">
     <section>
-        <h3 class="mb-5">Top Jobs</h3>
-        <div class="py-5 bg-white rounded-xl flex flex-col text-center">
-            <div class="self-start text-sm">Morongo LTD</div>
-            <div>
-                <h3 class="py-5 font-bold">Video Producer</h3>
-                <p>Full Time - From 80,000 KES</p>
-            </div>
-            <div class="flex justify-between items-center mt-auto">
-            <div>
-                <a href="">Tag</a>
-                <a href="">Tag</a>
-                <a href="">Tag</a>
-            </div>
-
-            <img src="http://placehold.it/42/42">
-            </div>
+        <x-section-heading>Available Jobs For You</x-section-heading>
+        <div class="grid lg:grid-cols-3 gap-8 mt-5">
+            <x-job-card></x-job-card>
+            <x-job-card></x-job-card>
+            <x-job-card></x-job-card>
         </div>
     </section>
+
+    <section>
+        <x-section-heading>Tags</x-section-heading>
+        <div class="mt-6 space-x-2">
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+            <x-job-tags>Tags</x-job-tags>
+        </div>
+    </section>
+
+    <section>
+        <x-section-heading>Recent Jobs</x-section-heading>
+    </section>
+</div>
 </x-layout>

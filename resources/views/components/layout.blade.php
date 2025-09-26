@@ -11,7 +11,7 @@
         <nav class="flex justify-between items-center py-4 border-b border-black/10">
             <div><a href="/" >
             <img src="{{Vite::asset('resources/images/logo.svg')}}"></a></div>
-            <div class="space-x-6">
+            <div class="space-x-6 font-bold">
             <a href="#">Jobs</a>
             <a href="#">Careers</a>
             <a href="#">Salary</a>
@@ -22,7 +22,7 @@
             </div>
         </nav>
 
-        <main class="mt-10 max-w-[990px]">
+        <main class="mt-10 max-w-[990px] mx-auto">
             {{$slot}}
         </main>
     </div>

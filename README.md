@@ -1,2 +1,2 @@
 # Puzzles
-AJob Application built with clean code and scalability in mind, this application helps employers post their job listings with little no effort
+A Job Application built with clean code and scalability in mind, this application helps employers post their job listings with little no effort

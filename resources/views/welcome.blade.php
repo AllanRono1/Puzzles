@@ -11,7 +11,7 @@
 
     <section>
         <x-section-heading>Tags</x-section-heading>
-        <div class="mt-6 space-x-6">
+        <div class="mt-6 space-x-4">
             <x-job-tags>Tags</x-job-tags>
             <x-job-tags>Tags</x-job-tags>
             <x-job-tags>Tags</x-job-tags>

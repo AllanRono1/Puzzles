@@ -12,7 +12,7 @@
         <nav class="flex justify-between items-center py-4 border-b border-black/10">
             <div><a href="/" >
             <img src="{{Vite::asset('resources/images/logo.svg')}}"></a></div>
-            <div class="space-x-6 font-bold">
+            <div class="space-x-6 font-bold round">
             <a href="#">Jobs</a>
             <a href="#">Careers</a>
             <a href="#">Salary</a>

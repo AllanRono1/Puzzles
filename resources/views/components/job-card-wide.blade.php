@@ -1,6 +1,6 @@
 <div class="py-5 bg-white rounded-xl flex gap-x-6">
     <div>
-    <img src="http://picsum.photos/seed/{{ rand(0, 100000) }}/100/100" class="rounded-xl">
+    <x-job-img></x-job-img>
 </div>
             <div class="flex-1">
                 <a href="#" class="self-start text-sm text-gray-500">Morongo LTD</a>

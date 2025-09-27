@@ -11,6 +11,6 @@
                 <x-job-tags>Tags</x-job-tags>
             </div>
 
-            <img src="http://placehold.it/42/42" class="rounded-xl">
+            <x-job-img :dim="40"></x-job-img>
             </div>
         </div>

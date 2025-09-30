@@ -7,9 +7,9 @@
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-grey text-black-500 font-montserrat">
+<body class="bg-black text-white font-montserrat">
     <div class="px-10">
-        <nav class="flex justify-between items-center py-4 border-b border-black/10">
+        <nav class="flex justify-between items-center py-4 border-b border-white/10">
             <div><a href="/" >
             <img src="{{Vite::asset('resources/images/logo.svg')}}"></a></div>
             <div class="space-x-6 font-bold round">

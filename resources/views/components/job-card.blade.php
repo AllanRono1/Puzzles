@@ -6,9 +6,9 @@
             </div>
             <div class="flex justify-between items-center mt-auto">
             <div>
-                <x-job-tags>Tags</x-job-tags>
-                <x-job-tags>Tags</x-job-tags>
-                <x-job-tags>Tags</x-job-tags>
+                <x-job-tags size="small">Web 3</x-job-tags>
+                <x-job-tags size="small">Html</x-job-tags>
+                <x-job-tags size="small">Nodejs</x-job-tags>
             </div>
 
             <x-job-img :dim="40"></x-job-img>
